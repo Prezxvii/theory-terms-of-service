@@ -174,7 +174,7 @@ function App() {
           <p>© {new Date().getFullYear()} Theory. All rights reserved.</p>
           <div className="footer-links">
             <a href="/">Terms of Use</a>
-            <a href="https://theory-privacy.vercel.app">Privacy Policy</a>
+            <a href="https://theory-privacy-policy-nu.vercel.app">Privacy Policy</a>
           </div>
         </div>
       </footer>
