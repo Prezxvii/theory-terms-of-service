@@ -30,7 +30,7 @@ const sections = [
   },
   {
     number: '4',
-    title: 'User content',
+    title: 'User Content',
     paragraphs: [
       'You retain ownership of the content you post on Theory. By submitting content, you grant Theory a non-exclusive, worldwide, royalty-free license to host, store, reproduce, display, distribute, adapt, and use your content to operate and promote the service.',
       'Public user content is visible to others. Do not post private, financial, health, location, or sensitive information in public areas.',
@@ -38,24 +38,34 @@ const sections = [
   },
   {
     number: '5',
-    title: 'Acceptable use',
+    title: 'Acceptable Use & Zero Tolerance',
     paragraphs: [
-      'You agree not to post unlawful, harmful, defamatory, threatening, harassing, hateful, sexually explicit, or abusive content.',
-      'Do not infringe intellectual property or privacy rights, distribute spam/malware, scrape data, or interfere with service operations.',
-      'Do not impersonate others or attempt to manipulate XP, rankings, badges, polls, battles, votes, or reward systems.',
+      'Theory maintains a strict zero-tolerance policy for objectionable content and abusive behavior. You agree not to use the Services to:',
+    ],
+    bullets: [
+      'Post unlawful, harmful, deceptive, defamatory, threatening, harassing, hateful, sexually explicit, discriminatory, violent, or abusive content.',
+      'Infringe intellectual-property, privacy, publicity, or other legal rights.',
+      'Spam users, distribute malware, scrape data, use unauthorized automated tools, or interfere with service operations.',
+      'Impersonate others, create deceptive accounts, or attempt to manipulate XP, rankings, badges, polls, battles, votes, or reward systems.',
+      'Use Theory to facilitate illegal activity or to harm another person.',
     ],
   },
   {
     number: '6',
-    title: 'Moderation',
+    title: 'Moderation, Reporting & Blocking',
     paragraphs: [
-      'We reserve the right (but have no obligation) to review, remove, edit, hide, or restrict access to User Content or accounts that violate these Terms or threaten platform safety.',
-      'We may suspend or terminate accounts at our discretion for conduct that harms the community or service.',
+      'To keep our community safe, Theory provides in-app reporting and blocking tools:',
+    ],
+    bullets: [
+      'Users may flag or report objectionable content, comments, or abusive users directly within the app at any time.',
+      'Users can block other accounts to prevent unwanted interactions.',
+      'We reserve the right (but have no obligation) to review, remove, limit, edit, hide, or disable access to User Content or accounts that violate these Terms, applicable law, or platform safety.',
+      'We review reports promptly and maintain zero tolerance for abusive users, taking enforcement action—including content removal, account suspension, or termination—at our sole discretion.',
     ],
   },
   {
     number: '7',
-    title: 'Third-party content',
+    title: 'Third-Party Content',
     paragraphs: [
       'The Services may display links, previews, images, metadata, videos, or other materials from third-party sources. This content is provided for informational purposes only.',
       'Theory does not guarantee the accuracy or reliability of third-party content. Comments displayed under external content inside Theory are created by Theory users and not imported from third parties.',
@@ -63,14 +73,14 @@ const sections = [
   },
   {
     number: '8',
-    title: 'Sports information',
+    title: 'Sports Information',
     paragraphs: [
       'Scores, schedules, standings, statistics, news, and predictions may be delayed or inaccurate. Theory is not a sportsbook and does not provide gambling, wagering, financial, or legal advice.',
     ],
   },
   {
     number: '9',
-    title: 'Intellectual property',
+    title: 'Intellectual Property',
     paragraphs: [
       'The Theory name, branding, app design, software, text, graphics, and materials are owned by or licensed to Theory and protected by IP laws.',
       'You may use the service for personal, non-commercial use only. You may not copy, reverse engineer, or exploit the platform without authorization.',
@@ -92,7 +102,7 @@ const sections = [
   },
   {
     number: '12',
-    title: 'Limitation of liability',
+    title: 'Limitation of Liability',
     paragraphs: [
       'To the maximum extent permitted by law, Theory and its affiliates will not be liable for indirect, incidental, special, consequential, or punitive damages, or loss of data, profits, or goodwill.',
     ],
